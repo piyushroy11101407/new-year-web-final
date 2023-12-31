@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('background.jpg') center/cover;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50; /* Set default text color */
+}
+
+header {
+    background-color: #ff6b6b; /* Pink background for the header */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #e74c3c; /* Pink color for the title */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.greeting {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.greeting p {
+    color: #34495e;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #ff6b6b; /* Pink background for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Customized styles for links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .greeting {
+        padding: 20px;
+    }
+}
+/* style.css */
+
+/* ... (existing styles) ... */
+/* style.css */
+
+/* ... (existing styles) ... */
+
+header h1 {
+    font-size: 2.5em;
+    color: #e74c3c; /* Pink color for the title */
+    cursor: pointer;
+}
+
+.flower {
+    width: 20px;
+    height: 20px;
+    background-color: #3498db; /* Blue color for the flower */
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    animation: flowerAnimation 2s linear infinite;
+}
+
+@keyframes flowerAnimation {
+    0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+        transform: translate(-20px, -20px) rotate(45deg);
+    }
+}
+header h1 {
+    font-size: 2.5em;
+    color: #e74c3c; /* Pink color for the title */
+    cursor: pointer;
+    display: inline-block; /* Make it an inline block */
+    padding: 10px; /* Add padding for space around the text */
+    border: 2px solid #e74c3c; /* Add a border */
+    border-radius: 8px; /* Add rounded corners */
+    transition: background-color 0.3s ease-in-out; /* Add transition effect */
+}
+
+header h1:hover {
+    background-color: #e74c3c; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+/* style.css */
+
+/* ... (existing styles) ... */
+
+.love-text {
+    position: fixed;
+    font-size: 1.5em;
+    font-family: 'Montez', cursive; /* Montez font for a handwritten feel */
+    color: #e74c3c; /* Pink color for the love text */
+    background-color: #fff; /* White background for the box */
+    padding: 10px; /* Padding for space around the text */
+    border: 2px solid #e74c3c; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    pointer-events: none;
+    opacity: 0; /* Start with opacity set to 0 for a fade-in effect */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Animation for fade-in effect */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* style.css */
+
+/* ... (existing styles) ... */
+
+header h1 {
+    font-size: 3em;
+    color: #e74c3c; /* Pink color for the title */
+    cursor: pointer;
+    display: inline-block; /* Make it an inline block */
+    padding: 15px; /* Add padding for space around the text */
+    border: 2px solid #e74c3c; /* Add a border */
+    border-radius: 15px; /* Add rounded corners */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add transition effect */
+    font-family: 'Pacifico', cursive; /* Add a fancy font (Pacifico) */
+}
+
+header h1:hover {
+    background-color: #e74c3c; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* style.css */
+
+/* ... (existing styles) ... */
+
+body {
+    font-family: 'Pacifico', cursive; /* Cursive font for a loving feel */
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #333; /* Dark text color */
+    background-color: #fff; /* Light background color */
+}
